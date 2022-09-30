@@ -1,0 +1,129 @@
+intents:
+  - greet
+  - start
+  - products
+  - show_product
+  - features
+  - feature_values
+  - comparisons
+  - feature_comparison
+  - feature_enquiry
+  - ratings
+  - review_summary
+  - reviews
+  - review_sentiment
+  - attributes
+  - feature_sentiment
+  - similars
+  - similar_product
+  - add_to_cart
+  - stop_shopping
+  - goodbye
+
+entities:
+  - product
+  - feature
+  - feature_value
+  - comparison
+  - rating
+  - review
+  - attribute
+  - similarity
+
+slots:
+  product:
+    type: text
+  feature:
+    type: text
+  feature_value:
+    type: text
+  comparison:
+    type: text
+  asin:
+    type: text
+  review:
+    type: text
+  similarity:
+    type: text
+  rating:
+    type: text
+  attribute:
+    type: text
+
+actions:
+ - utter_how_can_i_help
+ - utter_product_variety
+ - action_product_variety
+ - utter_product_query
+ - action_product_search
+ - utter_feature_comparison_query
+ - utter_feature_comparison
+ - action_feature_comparison
+ - action_comparisons
+ - action_feature_values
+ - utter_feature_enquiry_query
+ - utter_feature_enquiry
+ - action_feature_enquiry
+ - utter_review_summary_query
+ - utter_review_summary
+ - action_review_summary
+ - utter_review_sentiment_query
+ - utter_review_sentiment
+ - action_review_sentiment
+ - utter_feature_sentiment_query
+ - utter_feature_sentiment
+ - action_feature_sentiment
+ - utter_similar_products_query
+ - utter_similar_product
+ - action_similar_product
+ - utter_add_to_cart_query
+ - utter_add_to_cart
+ - utter_stop_shopping
+ - utter_goodbye
+ - utter_comparisons_query
+  
+
+responses:
+  utter_how_can_i_help:
+    - text: "Hello my name is BuyNet. I can help you find electronic products. What are you looking for today."
+  utter_product_variety:
+    - text: "I can show you products in 4 different categories with number of available products. Have a look.\n1. Camera - 627\n2. Computers - 266\n3. Earphones - 308\n4. Television - 71"
+  utter_product_query:
+    - text: "So which product do you want to see"
+  utter_feature_comparison_query:
+    - text: "Please help me by selecting a feature so that I can narrow down the products for you.\nExample: Query for this feature or Select this feature"
+  utter_feature_comparison:
+    - text: "Great! Now let me know what must be the value of that feature?\nExample: 1920*1080"
+  utter_comparisons_query:
+    - text: So tell me, are you looking for a product with feature value greater than, less than or equal to your selected value?
+  utter_feature_enquiry_query:
+    - text: "I can also show you the exact value of specifications of this product. Please choose any one of its features whose value you wish to know.\nExample: I want to know about the battery of this item"
+  utter_feature_enquiry:
+    - text: "The value of your desired specification is show below"
+  utter_review_summary_query:
+    - text: "Do you wish to see the review summary of this product?\nExample: Show me a summary of reviews for this products"
+  utter_review_summary:
+    - text: "A review summary of the product is shown below"
+  utter_review_sentiment_query:
+    - text: "I can also show you sentiment / ratings wise reviews for this product.\nExample: What are the positive reviews/5 star reviews about this product"
+  utter_review_sentiment:
+    - text: "A review summary of the product is shown below"
+  utter_feature_sentiment_query:
+    - text: "Do you wish to look at the attributes about which users are talking?\nExample: Tell me about the ratings of the attributes of this product"
+  utter_feature_sentiment:
+    - text: "A summary of ratings of all product attributes is show below"
+  utter_similar_products_query:
+    - text: "Want me to show some products similar to this one?\nFind products that are similar to this item"
+  utter_similar_product:
+    - text: 'Products similar to the one you were interested in are shown below'
+  utter_add_to_cart_query:
+    - text: "Do you want me to add the product you are currently viewing to your cart?"
+  utter_add_to_cart:
+    - text: "The product has been added to your cart. Do you wish to continue shopping?"
+  utter_stop_shopping:
+    - text: "I hope you are satisfied by the experience"
+  utter_goodbye:
+    - text: "Goodbye"
+
+
+  

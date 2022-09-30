@@ -1,0 +1,479 @@
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+
+## intent:start
+- What are the different products that I can see?
+- What kinds of items can you show me?
+- What are the different products that you can show me?
+- Let me know What kinds of items can I me?
+- What are the different products that I can buy?
+- Let me know What kinds of items can I buy?
+- What are the different products that I can look at?
+- Let me know What kinds of items can I purhcase?
+- What are the different products that I can purchase?
+- Let me know What kinds of items can I look at?
+
+## intent:products
+- [camera](product)
+- [television](product)
+- [computers](product)
+- [earphones](product)
+
+## intent:show_product
+- Please show me a [camera](product)
+- Show me a [camera](product)
+- Can you show me a [camera](product)?
+- I want to see a [camera](product)
+- Find me a [camera](product)
+- Please show me a [television](product)
+- Show me a [television](product)
+- Can you show me a [television](product)?
+- I want to see a [television](product)
+- Find me a [television](product)
+- Please show me a [computers](product)
+- I would like to see a [computers](product)
+- I would love to see a [computers](product)
+- Please show me [computers](product)
+- Show me [earphones](product)
+- Can you show me [earphones](product)?
+- I want to see [earphones](product)
+- Find me [earphones](product)
+- I would like to see [earphones](product)
+- I would love to see [earphones](product)
+- I am looking for a [camera](product)
+- I am looking for a [computers](product)
+- I am looking for [earphones](product)
+- I am looking for [computers](product)
+
+## intent:features
+- [screen resolution](feature)
+- [resolution](feature)
+- [sensitivity](feature)
+- [battery](feature)
+- [size](feature)
+- [hard drive](feature)
+- [ram](feature)
+- [display size](feature)
+- [flash memory size](feature)
+
+## intent:feature_values
+- [1050](feature_value)
+- [15](feature_value)
+- [2800](feature_value)
+- [900](feature_value)
+- [1000](feature_value)
+- [1200](feature_value)
+- [1400](feature_value)
+- [85](feature_value)
+- [850](feature_value)
+- [800](feature_value)
+- [1100](feature_value)
+- [40](feature_value)
+- [460](feature_value)
+- [1500](feature_value)
+- [500](feature_value)
+- [170](feature_value)
+- [50](feature_value)
+- [200](feature_value)
+- [1030](feature_value)
+- [5000](feature_value)
+- [300](feature_value)
+- [950](feature_value)
+- [1800](feature_value)
+- [4400](feature_value)
+- [20](feature_value)
+- [700](feature_value)
+- [16](feature_value)
+- [110](feature_value)
+- [1020](feature_value)
+- [7](feature_value)
+- [400](feature_value)
+- [350](feature_value)
+- [3500](feature_value)
+- [265](feature_value)
+- [3220](feature_value)
+- [1250](feature_value)
+- [2900](feature_value)
+- [3100](feature_value)
+- [6560](feature_value)
+- [880](feature_value)
+- [1180](feature_value)
+- [2000](feature_value)
+- [0](feature_value)
+- [1300](feature_value)
+- [768](feature_value)
+- [55](feature_value)
+- [3900](feature_value)
+- [10](feature_value)
+- [550](feature_value)
+- [120](feature_value)
+- [4550](feature_value)
+- [2950](feature_value)
+- [553](feature_value)
+- [250](feature_value)
+- [1850](feature_value)
+- [57](feature_value)
+- [2955](feature_value)
+- [140](feature_value)
+- [3000](feature_value)
+- [9001](feature_value)
+- [4605](feature_value)
+- [751](feature_value)
+- [1260](feature_value)
+- [3270](feature_value)
+- [8](feature_value)
+- [1600](feature_value)
+- [70](feature_value)
+- [150](feature_value)
+- [870](feature_value)
+- [60](feature_value)
+- [7200](feature_value)
+- [9](feature_value)
+- [1240](feature_value)
+- [15000](feature_value)
+- [260](feature_value)
+- [264](feature_value)
+- [5124](feature_value)
+- [3950](feature_value)
+- [102](feature_value)
+- [73](feature_value)
+- [3](feature_value)
+- [108](feature_value)
+- [115](feature_value)
+- [100](feature_value)
+- [130](feature_value)
+- [41](feature_value)
+- [48](feature_value)
+- [103](feature_value)
+- [90](feature_value)
+- [24](feature_value)
+- [30](feature_value)
+- [92](feature_value)
+- [104](feature_value)
+- [25](feature_value)
+- [18](feature_value)
+- [14](feature_value)
+- [105](feature_value)
+- [78](feature_value)
+- [107](feature_value)
+- [75](feature_value)
+- [98](feature_value)
+- [80](feature_value)
+- [1083](feature_value)
+- [983](feature_value)
+- [5](feature_value)
+- [1920 * 1080](feature_value)
+- [1280 * 800](feature_value)
+- [1366 * 768](feature_value)
+- [2592 * 1944](feature_value)
+- [320 * 240](feature_value)
+- [1600 * 900](feature_value)
+- [4096 * 2160](feature_value)
+- [1280 * 720](feature_value)
+- [4032 * 3024](feature_value)
+- [728 * 512](feature_value)
+- [3840 * 2160](feature_value)
+- [108 * 138](feature_value)
+- [210 * 175](feature_value)
+- [2136 * 1362](feature_value)
+- [1280 * 960](feature_value)
+- [2560 * 1440](feature_value)
+- [2688 * 1520](feature_value)
+- [175 * 170](feature_value)
+- [2592 * 1920](feature_value)
+- [2560 * 1600](feature_value)
+- [640 * 480](feature_value)
+- [1280 * 1080](feature_value)
+- [215 * 205](feature_value)
+- [5600 * 4200](feature_value)
+- [1920 * 1280](feature_value)
+- [100 * 100](feature_value)
+- [752 * 582](feature_value)
+- [1024 * 600](feature_value)
+- [3280 * 2000](feature_value)
+- [1440 * 900](feature_value)
+- [1024 * 768](feature_value)
+- [1920 * 1536](feature_value)
+- [628 * 582](feature_value)
+- [234 * 137](feature_value)
+- [330 * 114](feature_value)
+- [2160 * 1440](feature_value)
+- [800 * 480](feature_value)
+- [4096 * 2304](feature_value)
+- [1016 * 125](feature_value)
+- [2880 * 1800](feature_value)
+- [200 * 200](feature_value)
+- [2048 * 1536](feature_value)
+- [5120 * 2880](feature_value)
+- [450 * 170](feature_value)
+- [6000 * 4000](feature_value)
+- [355 * 245](feature_value)
+- [135 * 128](feature_value)
+- [1536 * 2048](feature_value)
+- [2](feature_value)
+- [12](feature_value)
+- [1](feature_value)
+- [4](feature_value)
+- [1280](feature_value)
+- [42](feature_value)
+- [6](feature_value)
+- [13](feature_value)
+- [11](feature_value)
+- [21](feature_value)
+- [83](feature_value)
+- [17](feature_value)
+- [32](feature_value)
+- [47](feature_value)
+- [37](feature_value)
+- [19](feature_value)
+- [56](feature_value)
+- [23](feature_value)
+- [53](feature_value)
+- [86](feature_value)
+- [29](feature_value)
+- [67](feature_value)
+- [27](feature_value)
+- [36](feature_value)
+- [63](feature_value)
+- [65](feature_value)
+- [61](feature_value)
+- [44](feature_value)
+- [39](feature_value)
+- [35](feature_value)
+- [59](feature_value)
+- [28](feature_value)
+- [66](feature_value)
+- [43](feature_value)
+- [22](feature_value)
+- [512](feature_value)
+- [1024](feature_value)
+- [64](feature_value)
+- [128](feature_value)
+- [256](feature_value)
+
+## intent:comparisons
+- [greater than](comparison)
+- [less than](comparison)
+- [equal to](comparison)
+- [more than](comparison)
+
+## intent:feature_comparison
+- Query for [display size](feature)
+- I want to filter on [display size](feature)
+- Select [display size](feature)
+- Show me products based on [display size](feature)
+- Query for display size [sensitivity](feature)
+- I want to filter on [sensitivity](feature)
+- Select [sensitivity](feature)
+- Show me products based on [sensitivity](feature)
+
+
+## intent:feature_enquiry
+- What is the [screen resolution](feature) of the product?
+- Tell me the [screen resolution](feature) of the product
+- Please show me the [screen resolution](feature) of the product
+- What is the [resolution](feature) of this product?
+- Tell me the [resolution](feature) of this product
+- Please show me the [resolution](feature) of this product
+- What is the [sensitivity](feature) of this item?
+- Tell me the [sensitivity](feature) of this item
+- Please show me the [sensitivity](feature) of this item
+- What is the [battery](feature) of this product?
+- Tell me the [battery](feature) of this product
+- Please show me the [battery](feature) of this product
+- What is the [size](feature) of this product?
+- Tell me the [size](feature) of this product
+- Please show me the [size](feature) of this product
+- I want to know about the [sensitivity](feature) of this product
+- I want to know about the [sensitivity](feature) of the product
+- I want to know about the [sensitivity](feature) of this item
+- I want to know about the [battery](feature) of this product
+- I want to know about the [battery](feature) of the product
+- I want to know about the [battery](feature) of this item
+- Can you tell me about the [hard drive](feature) of this product?
+- Can you tell me about the [hard drive](feature) of the product?
+- Can you tell me about the [hard drive](feature) of this item?
+- Show me the [flash memory size](feature) of this item
+- Show me the [flash memory size](feature) of this product
+- Show me the [flash memory size](feature) of the product
+
+## intent:ratings
+- [users say](rating)
+- [user reviews](rating)
+- [users talking](rating)
+- [summary of reviews](rating)
+- [review summary](rating)
+
+## intent:review_summary
+- What do [users say](rating) about this product?
+- Show me some [user reviews](rating) about this product
+- Please show me some of the [user reviews](rating) for this product
+- What are [users talking](rating) about this product?
+- What do [users say](rating) about this item?
+- Show me some [user reviews](rating) about this item
+- Please show me some of the [user reviews](rating) for this item
+- What are [users talking](rating) about this item?
+- What do [users say](rating) about the product?
+- Show me some [user reviews](rating) about the product
+- Please show me some of the [user reviews](rating) for the product
+- What are [users talking](rating) about the product?
+- Show a [summary of reviews](rating) for this product
+- Show a [summary of reviews](rating) for this item
+- Show a [summary of reviews](rating) for the product
+- Show me a [review summary](rating) for this product
+- Show me a [review summary](rating) for this item
+- Show me a [review summary](rating) for the product
+- What is the [summary of reviews](rating) for this product?
+- What is the [summary of reviews](rating) for this item?
+- What is the [summary of reviews](rating) for the product?
+- What is the [review summary](rating) for this product?
+- What is the [review summary](rating) for this item?
+- What is the [review summary](rating) for the product?
+
+## intent:reviews
+- [positive reviews](review)
+- [negative reviews](review)
+- [1 star reviews](review)
+- [2 star reviews](review)
+- [3 star reviews](review)
+- [4 star reviews](review)
+- [5 star reviews](review)
+
+## intent:review_sentiment
+- Show me some [positive reviews](review) about this product
+- Show me some [negative reviews](review) about this product
+- Show me [positive reviews](review) about this product
+- Show me [negative reviews](review) about this product
+- Show me some [positive reviews](review) about the product
+- Show me some [negative reviews](review) about the product
+- Show me [positive reviews](review) about the product
+- Show me [negative reviews](review) about the product
+- Show me some [positive reviews](review) about this item
+- Show me some [negative reviews](review) about this item
+- Show me [positive reviews](review) about this item
+- Show me [negative reviews](review) about this item
+- What are some [positive reviews](review) about this product?
+- What are some [negative reviews](review) about this product?
+- What are the [positive reviews](review) about this product?
+- What are the [negative reviews](review) about this product?
+- What are some [positive reviews](review) about the product?
+- What are some [negative reviews](review) about the product?
+- What are the [positive reviews](review) about the product?
+- What are the [negative reviews](review) about the product?
+- What are the some [positive reviews](review) about this item?
+- What are the some [negative reviews](review) about this item?
+- What are the [positive reviews](review) about this item?
+- What are the [negative reviews](review) about this item?
+- I am looking for [1 star reviews](review) of this product
+- I am looking for [1 star reviews](review) of this item
+- I am looking for [1 star reviews](review) of the product
+- I want to see some [5 star reviews](review) of this product
+- I want to see some [5 star reviews](review) of this item
+- I want to see some [5 star reviews](review) of the product
+- I am looking for [2 star reviews](review) of this product
+- I am looking for [3 star reviews](review) of this item
+- I am looking for [4 star reviews](review) of the product
+- I want to see some [2 star reviews](review) of this product
+- I want to see some [3 star reviews](review) of this item
+- I want to see some [4 star reviews](review) of the product
+
+## intent:attributes
+- [features](attribute)
+- [attributes](attribute)
+- [specifications](attribute)
+
+## intent:feature_sentiment
+- What are the [attributes](attribute) that the users are talking about in this product?
+- What are the [features](attribute) that the users are talking about in this product?
+- Show me the ratings of the [attributes](attribute) of this product
+- Show me the ratings of the [features](attribute) of this product
+- Tell me about the ratings of the [attributes](attribute) of this product
+- Tell me about the ratings of the [features](attribute) of this product
+- What are the [specifications](attribute) that the users are talking about in this product?
+- Show me the ratings of the [specifications](attribute) of this product
+- Tell me about the ratings of the [specifications](attribute) of this product
+- I want to know about the ratings of the [attributes](attribute) of this product
+- I want to know about the ratings of the [features](attribute) of this product
+- Show me the reviews of the [attributes](attribute) of this product
+- Show me the reviews of the [features](attribute) of this product
+- Tell me about the reviews of the [attributes](attribute) of this product
+- Tell me about the reviews of the [features](attribute) of this product
+- What are the [specifications](attribute) that the users are talking about in this product?
+- Show me the reviews of the [specifications](attribute) of this product
+- Tell me about the reviews of the [specifications](attribute) of this product
+- I want to know about the reviews of the [attributes](attribute) of this product
+- I want to know about the reviews of the [features](attribute) of this product
+- What are the [attributes](attribute) that the users are talking about in this item?
+- What are the [features](attribute) that the users are talking about in this item?
+- Show me the ratings of the [attributes](attribute) of this item
+- Show me the ratings of the [features](attribute) of this item
+- Tell me about the ratings of the [attributes](attribute) of this item
+- Tell me about the ratings of the [features](attribute) of this item
+- What are the [specifications](attribute) that the users are talking about in this item?
+- Show me the ratings of the [specifications](attribute) of this item
+- Tell me about the ratings of the [specifications](attribute) of this item
+- I want to know about the ratings of the [attributes](attribute) of this item
+- I want to know about the ratings of the [features](attribute) of this item
+- Show me the reviews of the [attributes](attribute) of this item
+- Show me the reviews of the [features](attribute) of this item
+- Tell me about the reviews of the [attributes](attribute) of this item
+- Tell me about the reviews of the [features](attribute) of this item
+- What are the [specifications](attribute) that the users are talking about in this item?
+- Show me the reviews of the [specifications](attribute) of this item
+- Tell me about the reviews of the [specifications](attribute) of this item
+- I want to know about the reviews of the [attributes](attribute) of this item
+- I want to know about the reviews of the [features](attribute) of this item
+
+
+## intent:similars
+- [similar](similarity)
+- [same](similarity)
+- [match](similarity)
+
+## intent:similar_product
+- Show me few products that are [similar](similarity) to this product
+- I want to look at some [similar](similarity) products
+- Find products that are [similar](similarity) to this product
+- Show me some products that are [same](similarity) as this one
+- What are some products that [match](similarity) this product?
+- Show me few products that are [similar](similarity) to this item
+- I want to look at some [similar](similarity) items
+- Find products that are [similar](similarity) to this item
+- Show me some products that [match](similarity) this one
+- What are some products that [match](similarity) this item?
+- I want to see some [similar](similarity) products
+- I want to see some products that are [similar](similarity) to this products
+- I want to see some products that are [similar](similarity) to this item
+- I want to see some [similar](similarity) items
+- I want to see some products that [match](similarity) this item
+
+## intent:add_to_cart
+- Yes, add this to my cart.
+- Add this product to my cart
+- I want to buy this product. Please add it to my cart
+- I like this product. Add this to my cart
+- Please add this product to my cart
+- I want to purchase this product. Add it to my cart
+
+## intent:stop_shopping
+- No thanks. Thats all for today
+- Thats all for now.
+- No thanks. I don't want to look for more products
+- No thanks
+- Thats all for today
+- Not now. 
+- No thats all for today
+- No I don't want to look for more products 
+- No thats all for today
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+- thanks
